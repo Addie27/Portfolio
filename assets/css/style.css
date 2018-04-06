@@ -10,13 +10,15 @@ body {
     font-family: 'Open Sans', sans-serif; 
 }
 
-a:link, a:visited {
-    opacity: 1.5 !important;
-    color: white!important; 
+a.navbutton:hover {
+    background-color: midnightblue !important; 
 }
 
-a:hover {
-    background-color: #00008B !important; 
+a.na
+
+a.navbutton:link, a.navbutton:visited {
+    opacity: 1.5 !important;
+    color: #FFD700!important; 
 }
 
 .biobox {
@@ -25,7 +27,7 @@ a:hover {
     font-family: 'Poppins', sans-serif !important;
 }
 
-.biorow {
+.biorow, .aboutrow {
     border: 2px solid black;
     background-color: rgba(0,51,102,0.8);
     height: 75%;
@@ -43,7 +45,7 @@ a:hover {
 
 .bioname {
     font-family: 'Poppins', sans-serif;
-    color: #FFF8DC; 
+    color: #FFD700; 
     font-weight: bold; 
     font-size: 55px; 
     padding-top: 10px;
@@ -63,21 +65,23 @@ a:hover {
 }
 
 .button {
-    background-color: #90EE90;
+    background-color: #FFD700;
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder !important; 
     border: 2px solid black!important; 
     border-radius: 10px; 
     color: black!important; 
-    font-size: 25px !important;
+    font-size: 1.8vw !important;
     display: block;
     position: absolute;
     right: 40%; 
     bottom: 5%; 
-    width: 200px;
+    width: 20%;
     height: 70px; 
     margin-top: 20px; 
     margin-bottom: 5px; 
+    padding: 5px; 
+    line-height: 1.0;
 }
 
 .profilepic {
@@ -85,6 +89,32 @@ a:hover {
     padding: 5px; 
     height: 45%;
     width: 25%; 
+}
+
+.bio {
+    color: 	#FFF8DC; 
+    font-size: 100%; 
+}
+
+.connect {
+    color: white;
+    font-size: 40px; 
+}
+
+a.social:hover, a.social:active {
+    background-color: transparent !important; 
+    color: transparent; 
+    text-decoration: none;  
+
+}
+
+address {
+    color: white;
+    font-size: 35px; 
+}
+
+a.email:link, a.email:visited {
+    color: #FFD700
 }
 
 @media (max-width: 1095px) {
@@ -100,42 +130,50 @@ a:hover {
 }
 
 @media (max-width: 1030px) {
-
-    .button {
-        right: 35%; 
+    .bio {
+        font-size: 2.4vw; 
+    }
+    .biorow, .aboutrow {
+        padding-top: 40px; 
     }
 
 }
 
 @media (max-width: 725px) {
 
-    .biorow{
-        height: 80%; 
+    .biorow, .aboutrow {
+        height: 80%;
+        padding: 10px;  
     }
     .bioname {
         font-size: 40px;
+        padding-top: 20px; 
+        padding-bottom: 40px; 
     }
 
     #biobuild {
         font-size: 30px; 
 
     }
-    .button {
-        right: 31%; 
-    }
-
-}
-
-@media (max-width: 725px) {
 
     .bioname {
         font-size: 30px;
     }
 
-    #biobuild {
-        font-size: 25px; 
-
+    .bio {
+        font-size: 2.8vw;
+        line-height: 2.0;  
     }
+
+    .profilepic {
+        height: 50%;
+        width: 30%; 
+    }
+
+    address {
+        font-size: 25px; 
+    }
+
 
 }
 
@@ -143,6 +181,7 @@ a:hover {
 
     .bioname {
         font-size: 30px;
+        padding-bottom: 70px; 
     }
 
     #biobuild {
@@ -150,16 +189,23 @@ a:hover {
 
     }
 
-    .biorow{
+    .biorow, .aboutrow {
         height: 90%; 
     }
 
-    .button {
-        right: 35%; 
-        width: 150px;
-        height: 50px; 
-        font-size: 20px !important;
+    .bio {
+        font-size: 3.0vw; 
+        line-height: 2.0; 
+    }
 
+    .profilepic {
+        height: 60%;
+        width: 40%; 
+    }
+
+    address {
+        padding-top: 50px; 
+        font-size: 20px; 
     }
 
 }
@@ -168,22 +214,47 @@ a:hover {
 
     .bioname {
         font-size: 30px;
+        padding: 50px; 
     }
 
     #biobuild {
         font-size: 20px; 
 
     }
-
+    .aboutrow {
+        background: transparent;
+        border: none; 
+        
+    }
     .biorow{
         height: 90%; 
+        padding: 0; 
+    }
+
+    .bio {
+        font-size: 4.8vw;
+        line-height: 1.5; 
+        color: black !important; 
+     
+    }
+
+    .profilepic {
+        height: 75%;
+        width: 50%; 
+        float: none; 
     }
 
     .button {
-        right: 23%; 
-        width: 150px;
-        height: 50px; 
-        font-size: 20px !important;
+        width: 50%; 
+        font-size: 1px !important; 
+        right: 25%; 
     }
+
+    address {
+        padding-top: 50px; 
+        font-size: 19px; 
+        float: left; 
+    }
+
 
 }

@@ -1,6 +1,6 @@
 
 var i = 0;
-var txt = '          I want to create clean and user-friendly applications.             Let me build one for you.'; /* The text */
+var txt = '          I love to create clean and user-friendly applications.             Let me build one for you.'; /* The text */
 var speed = 60; /* The speed/duration of the effect in milliseconds */
 
 $(document).ready(function () {

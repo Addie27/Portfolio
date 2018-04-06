@@ -15,6 +15,6 @@ $(document).ready(function () {
     $("#flip1").on("click", slide1);
     $("#flip2").on("click", slide2);
     $("#flip3").on("click", slide3);
-    $("#flip3").on("click", slide4);
+    $("#flip4").on("click", slide4);
 
 });
