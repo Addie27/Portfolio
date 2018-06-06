@@ -1,12 +1,13 @@
 body {
-    background-image: url("../images/background.jpg") ;
+    background-image: url("../images/pexels-photo-479453.jpeg") ;
     background-size: cover; 
     font-family: 'Merriweather', serif;
 }
 
+
 .navbar {
     background-color: black;
-    opacity: 0.7; 
+    opacity: 1.0; 
     font-size: 20px;  
     border-bottom: 3px solid gray !important;  
     font-family: 'Merriweather', serif;
@@ -23,42 +24,74 @@ a.navbutton:hover {
 
 a.navbutton:link, a.navbutton:visited {
     opacity: 1.5 !important;
-    color: #FFD700!important; 
+    color: rgba(114,140,140,1.0)!important;
 }
 
-.trivia {
-    background-image: url("../images/pink.jpg");
+.triviapic {
+    background-image: url("../images/pexels-photo-132340.jpeg");
+    background-size: cover; 
+    min-height: 200px;
+    width: 100%; 
 }
 
-.train {
-    background-image: url("../images/Snapchat.jpg");
+.trainpic {
+    background-image: url("../images/pexels-photo-269318.jpeg");
+    background-size: cover; 
+    min-height: 200px;
+    width: 100%; 
 }
 
-.project {
-    background-image: url("../images/green.png");
+.projectpic {
+    background-image: url("../images/pexels-photo-414859.jpeg");
+    background-size: cover; 
+    min-height: 200px;
+    width: 100%; 
 }
 
-.trivia, .train, .crystal, .project {
+.mamazonpic {
+    background-image: url("../images/pexels-photo-1036936.jpeg");
+    background-size: cover; 
+    min-height: 200px;
+    width: 100%; 
+}
+
+.crystalpic {
+    background-image: url("../images/pexels-photo-542619.jpeg");
+    background-size: cover; 
+    min-height: 200px;
+    width: 100%; 
+}
+
+.friendpic {
+    background-image: url("../images/pexels-photo-185699.jpeg");
+    background-size: cover; 
+    min-height: 200px;
+    width: 100%; 
+}
+
+
+.trivia, .train, .crystal, .project, .mamazon, .friendfinder {
+    background-color: rgba(114,140,140,1.0)!important;
     background-size: cover; 
     border: 3px solid black !important;
     color: black !important; 
     font-family: 'Merriweather', serif;
-    font-size: 30px; 
+    font-size: 23px; 
     text-align: center; 
+    min-height: 300px !important; 
+    position: relative; 
 }
 
-.crystal {
-    background-image: url("../images/blue.png"); 
-}
 
-.drop1, .drop2, .drop3, .drop4 {
-    padding: 10px;
+.drop1, .drop2, .drop3, .drop4, .drop5, .drop6 {
     display: none; 
     font-family: 'Merriweather', serif;
-    font-size: 20px; 
+    font-size: 15px; 
+    line-height: 1.5;
+    padding: 5px; 
 }
 
-#flip1, #flip2, #flip3, #flip4 {
+#flip1, #flip2, #flip3, #flip4, #flip5, #flip6 {
     font-family: 'Merriweather', serif;
     font-size: 15px; 
 }
@@ -70,3 +103,7 @@ a.navbutton:link, a.navbutton:visited {
 .here {
     text-decoration: underline; 
 }
+
+
+
+

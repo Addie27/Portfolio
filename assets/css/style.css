@@ -1,13 +1,14 @@
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/pexels-photo-91413.jpeg");
     background-size: cover; 
 }
 
 .navbar {
     background-color: black;
-    opacity: 0.7; 
+    opacity: 1.5; 
     font-size: 20px;  
     font-family: 'Merriweather', serif;
+    border-bottom: 3px solid gray !important; 
 }
 
 a.navbutton:hover {
@@ -18,7 +19,7 @@ a.na
 
 a.navbutton:link, a.navbutton:visited {
     opacity: 1.5 !important;
-    color: #FFD700!important; 
+    color: rgba(114,140,140,1.0)!important; 
 }
 
 .biobox {
@@ -29,7 +30,7 @@ a.navbutton:link, a.navbutton:visited {
 
 .biorow, .aboutrow {
     border: 2px solid black;
-    background-color: rgba(0,51,102,0.8);
+    background-color: rgba(114,140,140,0.9);
     height: 75%;
     width: 76%; 
     padding: 50px; 
@@ -45,7 +46,7 @@ a.navbutton:link, a.navbutton:visited {
 
 .bioname {
     font-family: 'Merriweather', serif;
-    color: #FFD700; 
+    color: black; 
     font-weight: bold; 
     font-size: 55px; 
     padding-top: 10px;
@@ -60,7 +61,7 @@ a.navbutton:link, a.navbutton:visited {
     font-size: 40px; 
     line-height: 2.0; 
     padding-top: 10px; 
-    color: #FFF8DC; 
+    color: black; 
     
 }
 
@@ -68,9 +69,9 @@ a.navbutton:link, a.navbutton:visited {
     background-color: transparent; 
     font-family: 'Merriweather', serif;
     font-weight: bolder !important; 
-    border: 2px solid beige !important; 
+    border: 2px solid rgb(5, 96, 187) !important;
     border-radius: 10px; 
-    color: beige !important; 
+    color: rgb(5, 96, 187) !important;
     font-size: 1.8vw !important;
     display: block;
     position: absolute;
@@ -92,13 +93,13 @@ a.navbutton:link, a.navbutton:visited {
 }
 
 .bio {
-    color: 	#FFF8DC; 
+    color: 	black; 
     font-size: 100%; 
     font-family: 'Merriweather', serif;
 }
 
 .connect {
-    color: white;
+    color: black;
     font-size: 40px; 
 }
 
@@ -110,12 +111,12 @@ a.social:hover, a.social:active {
 }
 
 address {
-    color: white;
+    color: black;
     font-size: 35px; 
 }
 
 a.email:link, a.email:visited {
-    color: #FFD700
+    color: rgb(5, 96, 187) !important;
 }
 
 @media (max-width: 1095px) {
