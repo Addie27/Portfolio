@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/pexels-photo-91413.jpeg");
+    background-image: url("../images/pexels-photo-479453.jpeg");
     background-size: cover; 
 }
 
@@ -13,14 +13,22 @@ body {
 
 a.navbutton:hover {
     background-color: white!important; 
+    text-decoration: none; 
 }
 
-a.na
+a.nav-name {
+    font-size: 30px !important;
+    color: rgb(213, 231, 216) !important; 
+    padding-top: 5px;
+}
 
 a.navbutton:link, a.navbutton:visited {
     opacity: 1.5 !important;
     color: rgba(114,140,140,1.0)!important; 
+    text-decoration: none;
 }
+
+
 
 .biobox {
     color: beige; 
@@ -69,9 +77,9 @@ a.navbutton:link, a.navbutton:visited {
     background-color: transparent; 
     font-family: 'Merriweather', serif;
     font-weight: bolder !important; 
-    border: 2px solid rgb(5, 96, 187) !important;
+    border: 2px solid black !important;
     border-radius: 10px; 
-    color: rgb(5, 96, 187) !important;
+    color: black !important;
     font-size: 1.8vw !important;
     display: block;
     position: absolute;
