@@ -40,6 +40,8 @@ a.navbutton:link, a.navbutton:visited {
 
 .jumbotron {
     min-height: 500px !important;
+    display: flex;
+    align-items: center;
 }
 
 .bioname {
@@ -66,7 +68,7 @@ a.navbutton:link, a.navbutton:visited {
 .button {
     font-family: 'Montserrat', sans-serif;
     height: 75px;
-    width: 250px !important; 
+    width: 300px !important; 
     font-weight: bolder !important; 
     border: 2px solid black !important;
     border-radius: 10px; 
@@ -75,13 +77,14 @@ a.navbutton:link, a.navbutton:visited {
     background-color: #8D8C8A;
     line-height: 1.0;
     position:relative;
-    top:78%; 
-    left:45%;
+    top: 90%; 
+    left: 40%;
+    right: 40%; 
 }
 
 .profilepic {
     float: left;
-    padding: 5px; 
+    padding: 10px; 
     height: 250px;
     width: 250px; 
 }
@@ -91,12 +94,14 @@ a.navbutton:link, a.navbutton:visited {
     font-size: 20px; 
     font-family: 'Montserrat', sans-serif;
     margin: 5px; 
+    
 }
 
 .connect {
     color: black;
     font-size: 40px; 
 }
+
 
 a.social:hover, a.social:active {
     background-color: transparent !important; 

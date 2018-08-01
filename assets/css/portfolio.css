@@ -41,6 +41,9 @@ a.nav-name, a.nav-name:hover {
     padding-bottom: 20px; 
 }
 
+.production {
+    font-size: 15px; 
+}
 .triviapic {
     background-image: url("../images/pexels-photo-132340.jpeg");
     background-size: cover; 
