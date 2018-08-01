@@ -42,6 +42,7 @@ a.navbutton:link, a.navbutton:visited {
     min-height: 500px !important;
     display: flex;
     align-items: center;
+    background-color: #FFFAFA !important;
 }
 
 .bioname {
@@ -78,8 +79,10 @@ a.navbutton:link, a.navbutton:visited {
     line-height: 1.0;
     position:relative;
     top: 95%; 
-    left: 40%;
-    right: 40%; 
+    left: 35%;
+    right: 45%; 
+    margin-top: 40px; 
+    
 }
 
 .profilepic {
@@ -108,6 +111,10 @@ a.social:hover, a.social:active {
     color: transparent; 
     text-decoration: none;  
 
+}
+
+.create {
+    font-size: 35px;
 }
 
 address {
@@ -180,6 +187,10 @@ a.email:link, a.email:visited {
         padding: 5px; 
     }
 
+    .create {
+        font-size: 15px !important;
+    }
+
     .profilepic {
         height: 30%;
         width: 30%; 
@@ -201,7 +212,7 @@ a.email:link, a.email:visited {
         width: 100px !important; 
         font-size: 13px !important; 
         background-color: darkgray;
-        margin-top: 30px; 
+        margin-top: 25px; 
         position: relative;
         left: 30%;
         right: 25%;

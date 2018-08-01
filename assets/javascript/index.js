@@ -12,7 +12,7 @@ $(document).ready(function () {
     }
   }
 
-  $('#mybutton').hide().delay(5000).fadeIn(2200);
+  // $('#mybutton').hide().delay(2000).fadeIn(2200);
 });
 
 

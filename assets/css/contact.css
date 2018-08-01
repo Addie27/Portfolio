@@ -44,6 +44,7 @@ a.navbutton:link, a.navbutton:visited {
 .jumbotron {
     min-height: 500px !important;
     align-content: center;
+    background-color: #FFFAFA !important;
    
 }
 .connect {
