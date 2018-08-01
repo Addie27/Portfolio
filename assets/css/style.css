@@ -77,7 +77,7 @@ a.navbutton:link, a.navbutton:visited {
     background-color: #8D8C8A;
     line-height: 1.0;
     position:relative;
-    top: 90%; 
+    top: 95%; 
     left: 40%;
     right: 40%; 
 }
@@ -157,8 +157,8 @@ a.email:link, a.email:visited {
     .bioindex {
         width: 80%; 
         position: relative;
-        left: 5%; 
-        right: 10%;
+        left: 10%; 
+        right: 5%;
         margin-bottom: 30px; 
     }
    
@@ -201,7 +201,10 @@ a.email:link, a.email:visited {
         width: 100px !important; 
         font-size: 13px !important; 
         background-color: darkgray;
-        margin-top: 20px; 
+        margin-top: 30px; 
+        position: relative;
+        left: 30%;
+        right: 25%;
     }
 
     address {
