@@ -21,11 +21,13 @@ a:link, a:visited {
 
 a.navbutton:hover {
     background-color: white !important; 
+    text-decoration: none; 
 }
 
 a.navbutton:link, a.navbutton:visited {
     opacity: 1.5 !important;
     color: #8D8C8A !important;
+    text-decoration: none;
 }
 
 a.nav-name, a.nav-name:hover {
@@ -35,9 +37,8 @@ a.nav-name, a.nav-name:hover {
     text-decoration: none; 
 }
 
-.container {
-    margin-bottom: 5px; 
-    padding: 20px; 
+.wrapper {
+    padding-bottom: 20px; 
 }
 
 .triviapic {

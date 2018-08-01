@@ -1,6 +1,7 @@
 body {
     background-image: url("../images/pexels-photo-479453.jpeg");
     background-size: cover; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -19,7 +20,7 @@ a.navbutton:hover {
 a.nav-name, a.nav-name:hover {
     font-size: 30px !important;
     color: #8D8C8A!important;  
-    padding-top: 15px;
+    padding-top: 5px;
     text-decoration: none; 
 }
 
@@ -31,6 +32,7 @@ a.navbutton:link, a.navbutton:visited {
 
 
 .biobox {
+    float: left; 
     color: beige; 
     font-size: 10px;
     font-family: 'Montserrat', sans-serif !important;
@@ -44,7 +46,7 @@ a.navbutton:link, a.navbutton:visited {
     font-family: 'Montserrat', sans-serif;
     color: black; 
     font-weight: bold; 
-    font-size: 40px; 
+    font-size: 50px !important; 
     padding-top: 10px;
     padding-bottom: 20px; 
     margin: 0 auto; 
@@ -62,23 +64,19 @@ a.navbutton:link, a.navbutton:visited {
 }
 
 .button {
-    background-color: transparent; 
     font-family: 'Montserrat', sans-serif;
+    height: 75px;
+    width: 250px !important; 
     font-weight: bolder !important; 
     border: 2px solid black !important;
     border-radius: 10px; 
     color: black !important;
     font-size: 1.8vw !important;
-    display: block;
-    position: absolute;
-    right: 40%; 
-    bottom: 5%; 
-    width: 20%;
-    height: 70px; 
-    margin-top: 20px; 
-    margin-bottom: 5px; 
-    padding: 5px; 
+    background-color: #8D8C8A;
     line-height: 1.0;
+    position:relative;
+    top:78%; 
+    left:45%;
 }
 
 .profilepic {
@@ -90,7 +88,6 @@ a.navbutton:link, a.navbutton:visited {
 
 .bio {
     color: 	black; 
-    float: left;
     font-size: 20px; 
     font-family: 'Montserrat', sans-serif;
     margin: 5px; 
@@ -134,7 +131,7 @@ a.email:link, a.email:visited {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1060px) {
    
     .bioname {
         font-size: 25px !important;
@@ -148,28 +145,28 @@ a.email:link, a.email:visited {
    
     .biobox {
         margin: 15px; 
-        display: inline-block;
+        float: left; 
         
     }
 
     .bioindex {
         margin: 15px; 
         display: inline-block;
+        margin-bottom: 30px; 
     }
    
     .jumbotron {
         margin-top: 30px !important; 
-        min-height: 450px !important;
+        min-height: 350px !important;
         padding-top: 30px !important; 
         align-content: center; 
+        
     }
     .bio {
-        font-size: 15px !important;
+        font-size: 150% !important;
         line-height: 1.0; 
         color: black !important;
-        display: inline-block;
-     
-        
+         
     }
 
     .bioname {
@@ -179,7 +176,17 @@ a.email:link, a.email:visited {
     .profilepic {
         height: 30%;
         width: 30%; 
-        display: inline-block; 
+        float: left; 
+    }
+
+    .connect, address, .sociallinks {
+        padding-left: 5px;
+        padding-right: 5px; 
+        margin-left: 20px; 
+    }
+
+    .sociallinks {
+        padding-top: 20px; 
     }
 
     .button {
@@ -188,7 +195,7 @@ a.email:link, a.email:visited {
         font-size: 13px !important; 
         background-color: darkgray;
         position: relative;
-        left: 45%; 
+        left: 35%; 
         margin-top: 50px; 
     }
 
@@ -198,5 +205,12 @@ a.email:link, a.email:visited {
         float: left; 
     }
 
+
+}
+
+@media (max-width: 520px) {
+    .jumbotron {
+        min-height: 450px !important; 
+    }
 
 }
