@@ -155,14 +155,16 @@ a.email:link, a.email:visited {
     }
 
     .bioindex {
-        margin: 15px; 
-        display: inline-block;
+        width: 80%; 
+        position: relative;
+        left: 5%; 
+        right: 10%;
         margin-bottom: 30px; 
     }
    
     .jumbotron {
         margin-top: 30px !important; 
-        min-height: 350px !important;
+        min-height: 300px !important;
         padding-top: 30px !important; 
         align-content: center; 
         
@@ -196,12 +198,10 @@ a.email:link, a.email:visited {
 
     .button {
         height: 40px; 
-        width: 180px; 
+        width: 100px !important; 
         font-size: 13px !important; 
         background-color: darkgray;
-        position: relative;
-        left: 35%; 
-        margin-top: 50px; 
+        margin-top: 20px; 
     }
 
     address {
