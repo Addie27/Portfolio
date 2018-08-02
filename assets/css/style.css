@@ -232,4 +232,10 @@ a.email:link, a.email:visited {
         min-height: 450px !important; 
     }
 
+    .button {
+        padding: 5px; 
+        left: 30%;
+        right: 25%;
+    }
+
 }
